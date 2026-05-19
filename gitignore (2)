@@ -1,0 +1,22 @@
+# Oracle SQL Developer
+*.bak
+*.bak2
+.sqldeveloper/
+
+# Log files
+*.log
+*.trc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+*.tmp
+*~
