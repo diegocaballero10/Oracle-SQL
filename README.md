@@ -42,3 +42,6 @@ The schema contains three tables related through `CountryCode`:
 ```text
 country (Code PK)  <----  city (CountryCode FK)
 country (Code PK)  <----  countrylanguage (CountryCode FK)
+```
+
+Join queries The example queries rewritten using explicit JOIN ... ON syntax (instead of the legacy comma-and-WHERE form). For each country: average between known population and the sum of its cities' populations. Countries where English is spoken and is an official language. Cities of countries that gained independence between 1800 and 1900 inclusive. Repository structure db-world-sql/ ├── 01-DDL.sql # Table creation script ├── 02-Data_Insert.sql # Data insertion script (country, city, countrylanguage) ├── 03-Soluciones.sql # Solutions to every question in the assignment ├── Practica_1.pdf # Original assignment statement ├── README.md # This file └── .gitignore # Files ignored by git Author Diego Caballero Sarmiento
